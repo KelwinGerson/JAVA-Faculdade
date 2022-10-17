@@ -34,7 +34,6 @@ public class TestaPessoa {
         ArrayList<Pessoa> pessoas = new ArrayList<>();
 
         // Recebimento dos dados das pessoas:
-
         int continua;
 
         do {
@@ -43,7 +42,6 @@ public class TestaPessoa {
         } while (continua == JOptionPane.YES_OPTION);
 
         // exibição dos dados das pessoas:
-
         for (Pessoa p : pessoas) {
             p.apresente();
         }

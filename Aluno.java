@@ -1,6 +1,6 @@
 import javax.swing.JOptionPane;
 
-public class Aluno extends TestaPessoa {
+public class Aluno extends Pessoa {
     private String ra;
 
     public String getRa() {
@@ -16,15 +16,7 @@ public class Aluno extends TestaPessoa {
     }
     
     public void apresente() {
-        JOptionPane.showMessageDialog(null, "Olá! Eu sou o aluno" + getNome() + ", meu telefone é" + getTelefone() + "e meu RA é " + ra + ".");
-    }
-
-    private String getTelefone() {
-        return null;
-    }
-
-    private String getNome() {
-        return null;
+        JOptionPane.showMessageDialog(null, "Ola! Eu sou o aluno: " + getNome() + ", e meu telefone e: " + getTelefone() + ", RA: " + ra + ".");
     }
 
     public Aluno(String nome, int telefone, String ra) {
